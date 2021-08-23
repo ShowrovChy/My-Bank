@@ -58,6 +58,6 @@ document
       getTotal("withdraw-total", newWithdrawAmount);
       getTotalBalance(newWithdrawAmount, false);
     } else {
-      let alertText = alert("Please Enter Valid Amount");
+      alert("Please Enter Valid Amount");
     }
   });
